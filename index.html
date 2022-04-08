@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Me!</title>
+    <style>
+        body{
+            background-image: url("https://fthmb.tqn.com/vMHG2Hi44XBqddh93WTo3nkWESU=/5000x3000/filters:fill(auto,1)/low-poly-background-672623312-5a5a8563e258f800370a105a.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+        #div1{
+            height: 280px;
+            width:280px;
+            align-items: center;
+            background-color: white;
+            margin-left: 190px;
+            border-radius: 10px;
+        }
+        #div2{
+            height: 280px;
+            width:280px;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            margin-left: 790px;
+            margin-top:-280px;
+            border-radius: 10px;
+        }
+        #btn{
+            margin-left: 600px;
+            margin-bottom: 90px;
+            margin-top: -800px;
+            padding: 7px 20px;
+            background-image: linear-gradient(to right,#000000,#434343);
+            border: none;
+            border-radius: 3px;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bolder; 
+        }
+        #d6{
+            height:200px;
+            width:200px;
+            margin-top: 40px;
+            margin-left:40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" style="font-size: 90px;">Roll Me!</h1>
+    
+    <div id="div1">
+        <img id ="d6" src="d6.png">
+    </div>
+    
+    <div id="div2">
+        <img id ="d6" src="d6.png">
+    </div>
+    <button onclick="rolldice()" align="center" id="btn">Roll 🎲</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
